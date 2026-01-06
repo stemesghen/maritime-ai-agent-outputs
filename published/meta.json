@@ -1,8 +1,0 @@
-{
-  "generated_at_utc": "2026-01-06T20:23:40.084662Z",
-  "summary_csv": "C:\\Users\\Sabrina.Temesghen\\Documents\\AI_Agent\\data\\extracted\\summary_out.csv",
-  "ais_csv": "C:\\Users\\Sabrina.Temesghen\\Documents\\AI_Agent\\data\\extracted\\ais_nearby_vessels.csv",
-  "num_incidents": 169,
-  "num_docs_with_ais": 64,
-  "max_ais_per_doc": 200
-}
