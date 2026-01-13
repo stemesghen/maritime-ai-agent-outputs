@@ -1,24 +1,32 @@
 {
-  "generated_at_utc": "2026-01-13T15:29:09.977249+00:00",
+  "generated_at_utc": "2026-01-13T15:57:58.193951+00:00",
   "paths": {
     "summary_csv": "C:\\Users\\Sabrina.Temesghen\\Documents\\AI_Agent\\data\\extracted\\summary_out.csv",
     "ais_csv": "C:\\Users\\Sabrina.Temesghen\\Documents\\AI_Agent\\data\\extracted\\ais_nearby_vessels.csv",
-    "mordecai_ports_matches_csv": "C:\\Users\\Sabrina.Temesghen\\Documents\\AI_Agent\\data\\extracted\\mordecai_ports_matches.csv"
+    "mordecai_ports_matches_csv": "C:\\Users\\Sabrina.Temesghen\\Documents\\AI_Agent\\data\\extracted\\mordecai_ports_matches.csv",
+    "mordecai_hits_csv": "C:\\Users\\Sabrina.Temesghen\\Documents\\AI_Agent\\data\\extracted\\mordecai_hits.csv"
   },
   "published": {
     "incidents_summary_json": "C:\\Users\\Sabrina.Temesghen\\Documents\\maritime-ai-agent-outputs\\incidents_summary.json",
     "affected_ais_vessels_flat_json": "C:\\Users\\Sabrina.Temesghen\\Documents\\maritime-ai-agent-outputs\\affected_AIS_vessels_flat.json",
     "affected_ais_vessels_grouped_json": "C:\\Users\\Sabrina.Temesghen\\Documents\\maritime-ai-agent-outputs\\affected_AIS_vessels.json",
     "mordecai_port_matches_flat_json": "C:\\Users\\Sabrina.Temesghen\\Documents\\maritime-ai-agent-outputs\\mordecai_port_matches_flat.json",
-    "mordecai_port_matches_grouped_json": "C:\\Users\\Sabrina.Temesghen\\Documents\\maritime-ai-agent-outputs\\mordecai_port_matches.json"
+    "mordecai_port_matches_grouped_json": "C:\\Users\\Sabrina.Temesghen\\Documents\\maritime-ai-agent-outputs\\mordecai_port_matches.json",
+    "mordecai_hits_flat_json": "C:\\Users\\Sabrina.Temesghen\\Documents\\maritime-ai-agent-outputs\\mordecai_hits_flat.json",
+    "mordecai_hits_grouped_json": "C:\\Users\\Sabrina.Temesghen\\Documents\\maritime-ai-agent-outputs\\mordecai_hits.json"
   },
   "counts": {
     "incidents": 169,
     "ais_flat_rows": 14423,
-    "mordecai_flat_rows_ge_0_5": 2044
+    "mordecai_port_matches_flat_rows_ge_threshold": 2044,
+    "mordecai_hits_flat_rows": 2366
   },
   "thresholds": {
     "publish_max_ais_per_doc": 200,
     "publish_min_mord_total_score": 0.5
+  },
+  "git": {
+    "publish_git_push_enabled": true,
+    "outputs_repo": "C:\\Users\\Sabrina.Temesghen\\Documents\\maritime-ai-agent-outputs"
   }
 }
