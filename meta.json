@@ -1,9 +1,24 @@
 {
-  "generated_at_utc": "2026-01-11T18:53:37.835587Z",
-  "summary_csv": "C:\\Users\\Sabrina.Temesghen\\Documents\\AI_Agent\\data\\extracted\\summary_out.csv",
-  "ais_csv": "C:\\Users\\Sabrina.Temesghen\\Documents\\AI_Agent\\data\\extracted\\ais_nearby_vessels.csv",
-  "num_incidents": 169,
-  "num_ais_rows_flat": 2839,
-  "num_docs_with_ais": 57,
-  "max_ais_per_doc": 200
+  "generated_at_utc": "2026-01-13T15:29:09.977249+00:00",
+  "paths": {
+    "summary_csv": "C:\\Users\\Sabrina.Temesghen\\Documents\\AI_Agent\\data\\extracted\\summary_out.csv",
+    "ais_csv": "C:\\Users\\Sabrina.Temesghen\\Documents\\AI_Agent\\data\\extracted\\ais_nearby_vessels.csv",
+    "mordecai_ports_matches_csv": "C:\\Users\\Sabrina.Temesghen\\Documents\\AI_Agent\\data\\extracted\\mordecai_ports_matches.csv"
+  },
+  "published": {
+    "incidents_summary_json": "C:\\Users\\Sabrina.Temesghen\\Documents\\maritime-ai-agent-outputs\\incidents_summary.json",
+    "affected_ais_vessels_flat_json": "C:\\Users\\Sabrina.Temesghen\\Documents\\maritime-ai-agent-outputs\\affected_AIS_vessels_flat.json",
+    "affected_ais_vessels_grouped_json": "C:\\Users\\Sabrina.Temesghen\\Documents\\maritime-ai-agent-outputs\\affected_AIS_vessels.json",
+    "mordecai_port_matches_flat_json": "C:\\Users\\Sabrina.Temesghen\\Documents\\maritime-ai-agent-outputs\\mordecai_port_matches_flat.json",
+    "mordecai_port_matches_grouped_json": "C:\\Users\\Sabrina.Temesghen\\Documents\\maritime-ai-agent-outputs\\mordecai_port_matches.json"
+  },
+  "counts": {
+    "incidents": 169,
+    "ais_flat_rows": 14423,
+    "mordecai_flat_rows_ge_0_5": 2044
+  },
+  "thresholds": {
+    "publish_max_ais_per_doc": 200,
+    "publish_min_mord_total_score": 0.5
+  }
 }
