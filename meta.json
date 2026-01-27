@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-01-16T17:14:58.015634+00:00",
+  "generated_at_utc": "2026-01-27T21:53:46.455909+00:00",
   "paths": {
     "summary_csv": "C:\\Users\\Sabrina.Temesghen\\Documents\\AI_Agent\\data\\extracted\\summary_out.csv",
     "ais_csv": "C:\\Users\\Sabrina.Temesghen\\Documents\\AI_Agent\\data\\extracted\\ais_nearby_vessels.csv",
@@ -17,16 +17,16 @@
   },
   "counts": {
     "incidents": 209,
-    "ais_flat_rows": 14423,
-    "mordecai_port_matches_flat_rows_ge_threshold": 2892,
-    "mordecai_hits_flat_rows": 3003
+    "ais_flat_rows": 0,
+    "mordecai_port_matches_flat_rows_ge_threshold": 0,
+    "mordecai_hits_flat_rows": 0
   },
   "thresholds": {
     "publish_max_ais_per_doc": 200,
     "publish_min_mord_total_score": 0.5
   },
   "git": {
-    "publish_git_push_enabled": false,
+    "publish_git_push_enabled": true,
     "outputs_repo": "C:\\Users\\Sabrina.Temesghen\\Documents\\maritime-ai-agent-outputs"
   }
 }
