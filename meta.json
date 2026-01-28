@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-01-27T21:53:46.455909+00:00",
+  "generated_at_utc": "2026-01-28T04:12:56.409021+00:00",
   "paths": {
     "summary_csv": "C:\\Users\\Sabrina.Temesghen\\Documents\\AI_Agent\\data\\extracted\\summary_out.csv",
     "ais_csv": "C:\\Users\\Sabrina.Temesghen\\Documents\\AI_Agent\\data\\extracted\\ais_nearby_vessels.csv",
@@ -16,7 +16,7 @@
     "mordecai_hits_grouped_json": "C:\\Users\\Sabrina.Temesghen\\Documents\\maritime-ai-agent-outputs\\mordecai_hits.json"
   },
   "counts": {
-    "incidents": 209,
+    "incidents": 27,
     "ais_flat_rows": 0,
     "mordecai_port_matches_flat_rows_ge_threshold": 0,
     "mordecai_hits_flat_rows": 0
